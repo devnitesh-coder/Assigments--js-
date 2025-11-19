@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+  font-family: monospace;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.box {
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.box P {
+  font-size: 20px;
+  padding: 15px;
+}
+.box P span {
+  color: blue;
+}
+.box .outer {
+  height: 30px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: rgb(158, 155, 155);
+  overflow: hidden;
+}
+.box .outer .inner {
+  height: 30px;
+  width: 0;
+  background-color: green;
+  border-radius: 20px;
+}
+.box .mid {
+  font-size: 20px;
+  padding: 0 15px;
+}
+.box .bottum {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .bottum h2 {
+  font-size: 45px;
+}
+.box .bottum button {
+  padding: 15px 30px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=style.css.map */
